@@ -91,7 +91,28 @@ img{
     display:block;
 }
 /*===== CLASS CSS ===== */
+.section{
+    padding: 5rem 0 2rem;
+}
 
+.section-title{
+    position: relative;
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.section-title::after{
+    content: ' ';
+    position: absolute;
+    width: 0.18rem;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: var(--dark-color);
+} 
 
 /*===== LAYOUT =====*/
 
@@ -135,13 +156,3 @@ img{
 
 
 /* ===== MEDIA QUERIES=====*/
-
-
-
-/* note
-
-display:block == set a block element in full width line 
-
-
-
-*/
