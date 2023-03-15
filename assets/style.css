@@ -147,7 +147,7 @@ img{
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        left: 0;
+        left: -100%;
         width: 70%;
         height: 100vh;
         padding: 2rem;
@@ -164,7 +164,7 @@ img{
     font-weight: ver(--font-semi-bold);
 }
 
-.nav_toggle, .nav__shop{
+.nav__toggle, .nav__shop{
     font-size: 1.3rem;
     cursor: pointer;
 }
@@ -174,7 +174,11 @@ img{
 .show{
     left: 0;
 } 
+
 /*Active link*/
+.active{
+   position: relative; 
+}
 
 
 /*Change color header*/
