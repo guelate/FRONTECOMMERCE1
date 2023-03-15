@@ -1,73 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- related to all caracteres of a web page -->
-        <meta charset="UTF-8">
+  <head>
+    <!-- related to all caracteres of a web page -->
+    <meta charset="UTF-8" />
 
-        <!-- content:size view, initial-scale:zoom on view page -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- content:size view, initial-scale:zoom on view page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="/assets/style.css">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="/assets/style.css" />
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-        <title>E-Sneakers</title>
-    </head> 
+    <title>E-Sneakers</title>
+  </head>
 
-    <body>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bxs-grid"></i>
+        </div>
+        <a href="#" class="nav__logo">Roby</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Accueil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">En vedette</a>
+            </li>
+            <li class="nav__item">
+              <a href="#women" class="nav__link">Femme</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">Homme</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Boutique</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__shop">
+          <i class="bx bx-shopping-bag"></i>
+        </div>
+      </nav>
+    </header>
 
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-grid">
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bxs-grid'></i>
-                </div>
-                <a href="#" class="nav__logo">Roby</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
-                        <li class="nav__item"><a href="#featured" class="nav__link">En vedette</a></li>
-                        <li class="nav__item"><a href="#women" class="nav__link">Femme</a></li>
-                        <li class="nav__item"><a href="#new" class="nav__link">Homme</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Boutique</a></li>
-                    </ul>
-                </div>
-                <div class="nav__shop">
-                    <i class='bx bx-shopping-bag'></i>
-                </div>
-            </nav>
-        </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+            <div class="home__sneaker">
+                <div class="home__shape"></div>
+                <img src="assets/img/productMen1.png" alt="" class="home__img">
+            </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            
+            <div class="home__data">
+                <span class="home__new">New in</span>
+                <h1 class="home__title">Yeezy boost <br> spr df</h1>
+                <p class="home__description">seknoenepin  wjfnfl</p>
+                <a href="#" class="button">hjbkjb</a>
+            </div>
+        </div>
+      </section>
+      <!--===== FEATURED =====-->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">featured</h2>
 
-            <!--===== FEATURED =====-->
-            
+        <div class="featured__container bd-grid">
+            <article class="sneaker">
+                <div class="sneaker__sale">sale</div>
+                <img src="assets/img/collection1.png" alt="" class="sneaker__img">
+                <span class="sneaker__name">Nike jordan</span>
+                <span class="sneaker__preci">1233</span>
+                <a href="" class="button-light">ljqewdn fw<i class='bx bx-right-arrow-alt'></i></a>
+            </article>
 
-            <!--===== COLLECTION =====-->
-            
+            <article class="sneaker">
+                <div class="sneaker__sale">sale</div>
+                <img src="assets/img/collection1.png" alt="" class="sneaker__img">
+                <span class="sneaker__name">Nike jordan</span>
+                <span class="sneaker__preci">1233</span>
+                <a href="" class="button-light">ljqewdn fw<i class='bx bx-right-arrow-alt'></i></a>
+            </article>
 
-            <!--===== WOMEN SNEAKERS =====-->
-            
+            <article class="sneaker">
+                <div class="sneaker__sale">sale</div>
+                <img src="assets/img/collection1.png" alt="" class="sneaker__img">
+                <span class="sneaker__name">Nike jordan</span>
+                <span class="sneaker__preci">1233</span>
+                <a href="" class="button-light">ljqewdn fw<i class='bx bx-right-arrow-alt'></i></a>
+            </article>
+        </div>
+      </section>
+      <!--===== COLLECTION =====-->
 
-            <!--===== OFFER =====-->
-            
+      <!--===== WOMEN SNEAKERS =====-->
 
-            <!--===== NEW COLLECTION =====-->
-            
+      <!--===== OFFER =====-->
 
-            <!--===== NEWSLETTER =====-->
-            
-        </main>
+      <!--===== NEW COLLECTION =====-->
 
-        <!--===== FOOTER =====-->
-        
+      <!--===== NEWSLETTER =====-->
+    </main>
 
-        <!--===== MAIN JS =====-->
-        <script src="script.js"></script>
-        
-    </body>
+    <!--===== FOOTER =====-->
+
+    <!--===== MAIN JS =====-->
+    <script src="script.js"></script>
+  </body>
 </html>
