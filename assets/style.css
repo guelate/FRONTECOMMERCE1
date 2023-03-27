@@ -187,13 +187,14 @@ img {
 }
 
 .active::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -0.5rem;
   left: 45%;
   width: 4px;
   height: 4px;
-  background-color: var(--dark-color);
+  background-color: var(--dark-color); 
+  border-radius: 50%;
 }
 
 /*Change color header*/
@@ -497,16 +498,20 @@ img {
 
 /*===== NEWSLETTER =====*/
 .newsletter__container{
-  background-color: var(--dark-color);
+  background-color: var(--dark-color); 
+  color: var(--white-color);
+  padding: 2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
 }
 
 .newsletter__title{
-
+  font-size: var(--bigger-font-size);
+  margin-bottom: var(--mb-2);
 }
 
 .newsletter__description{
-
-
+  margin-bottom: var(--mb-5);
 }
 
 .newsletter__subscribe{
@@ -524,11 +529,11 @@ img {
   font-size: var(--normal-font-size);
 }
 
-.newsletter::placeholder{
+.newsletter__input ::placeholder{
   color: var(--dark-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  font-weight: var();
+  font-weight: var(--font-semi-bold);
 }
 
 /*===== FOOTER =====*/

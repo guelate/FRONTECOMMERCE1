@@ -1,7 +1,8 @@
 display:block == set a block element in full width line 
 
 review: naming class/variable
-stop at HEADER show / start of //base -img logic css
+stop until newsletter
+
 
 https://www.volusion.com/blog/css-selectors/#:~:text=Attribute%20selectors%20are%20used%20to,are%20denoted%20with%20square%20brackets. (bracket in css)
 

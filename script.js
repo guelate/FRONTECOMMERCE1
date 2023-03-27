@@ -18,11 +18,11 @@ const navMenu = document.getElementById("nav-menu");
 
 //difference funct et const ()
 function linkAction() {
-  navMenu.classList.remove("show");
+  navMenu.classList.remove('show');
 }
 
 //difference between '' and ""
-navLink.forEach((n) => n.addEventListener("click", linkAction));
+navLink.forEach(n => n.addEventListener("click", linkAction));
 
 //SCROLL SECTIONS ACTIVE LINK
 const sections = document.querySelectorAll("section[id]");
@@ -31,27 +31,24 @@ window.addEventListener("scroll", scrollActive);
 function scrollActive() {
   const scrollY = window.pageYOffset;
 
-  sections.forEach((current) => {
+  sections.forEach(current => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
-    const sectionId = current.getAttribute("id");
+    const sectionId = current.getAttribute('id');
 
+  //search course about selector [xxx] and difference between '' and ""
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.add("active");
+      document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active');
     } else {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.remove("remove");
+      document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active');
     }
-  });
+  }); 
 }
 
 //CHANGE COLOR HEADER
 //simplifly this part
 window.onscroll = () => {
-  const nav = document.getElementById("header");
-  if (this.scroll >= 200) nav.classList.add("scroll-header");
-  else nav.classList.remove("scroll-header");
+  const nav = document.getElementById('header');
+  if (this.scrollY >= 200) nav.classList.add('scroll-header');
+  else nav.classList.remove('scroll-header');
 };
