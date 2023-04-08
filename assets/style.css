@@ -353,9 +353,15 @@ img {
   color: var(--white-color);
 }
 /*===== COLLECTION =====*/
+
 .collection__container{
   row-gap: 2rem;
   justify-content: center;
+}
+
+.new__mens{
+  display: flex;
+  align-items: center;
 }
 
 .collection__card{
@@ -401,31 +407,6 @@ img {
   row-gap: 2rem;
   grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
 
-}
-/*===== OFFER =====*/
-.offer__container{
-  grid-template-columns: 55% 45%;
-  column-gap: 0;
-  background-color: var(--dark-color-lighten);
-  border-radius: 0.5rem;
-  justify-content: center;
-}
-
-.offer__data{
-  padding: 4rem 0 4rem 1.5rem;
-}
-
-.offer__title{
-  font-size: var(--bigger-font-size);
-  margin-bottom: 0.25rem;
-}
-
-.offer__description{
-  margin-bottom: var(--mb-3);
-}
-
-.offer__img{
-  width: 153px;
 }
 
 
@@ -691,7 +672,7 @@ img {
 
   .new__mens{
     align-items: initial;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     padding: 4rem 2rem;
   }
 

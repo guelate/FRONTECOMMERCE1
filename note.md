@@ -1,12 +1,3 @@
-TASKS:
-
-- chercher des examples de front (rubrique a propos) + (chatgpt) Un texte pour une rubrique à propos pour une entreprise de parfumerie 
-- review new collection part (video) + faire les différentes rubriques de la home page.
-- appres la page d'acceui l(avec les differentes rubriques) et boutique terminé continuer avec React + tailwind css.
-- AVANT REACT faire une premier version du projet HTML/CSS
-
-
-
 https://www.volusion.com/blog/css-selectors/#:~:text=Attribute%20selectors%20are%20used%20to,are%20denoted%20with%20square%20brackets.
 (bracket in css)
 
