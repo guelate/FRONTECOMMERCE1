@@ -1,0 +1,1 @@
+Le dossier "modules" peut être utilisé pour regrouper des fichiers liés à un module ou une fonctionnalité spécifique de l'application. Par exemple, si vous travaillez sur une application qui inclut un module de connexion, vous pouvez créer un dossier "modules/auth"
