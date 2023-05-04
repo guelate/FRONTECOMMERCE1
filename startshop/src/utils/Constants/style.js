@@ -13,3 +13,21 @@ export const SneakerSaleCard_STYLE_SPAN_1 = ""
 export const SneakerSaleCard_STYLE_SPAN_2 = ""
 export const SneakerSaleCard_STYLE_A_HREF = ""
 
+export const Header_STYLE_HEADER = ""
+export const Header_STYLE_NAV = ""
+export const Header_STYLE_A_1 = ""
+export const Header_STYLE_DIV_1 = ""
+export const Header_STYLE_UL = ""
+export const Header_STYLE_LI = ""
+export const Header_STYLE_A_2 = ""
+
+export const BlackButton_STYLE_A_SHORT = ""
+export const BlackButton_STYLE_A_LONG = ""
+
+export const Newsletter_STYLE_DIV_1 = ""
+// export const Newsletter_STYLE_DIV_2 = "" ???
+export const Newsletter_STYLE_H3 = ""
+export const Newsletter_STYLE_P = ""
+export const Newsletter_STYLE_FORM = ""
+export const Newsletter_STYLE_A = ""
+
