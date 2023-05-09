@@ -1,16 +1,14 @@
 import './App.css';
-import Header from './components/Header';
+import SneakerProductCard from './components/SneakerProductCard';
 // import Newsletter from './components/Newsletter';
-import SneakerSaleCard from './components/SneakerSaleCard';
 
 function App() {
   return (
     <div className="App">
-      {/* <SneakerSaleCard /> */}
-      <Header />
-      {/* <Newsletter /> */}
+      <SneakerProductCard Model={"Model"} Price={"180"} Shopping_cart={"ajoutez au panier"}/>
     </div>
   );
 }
+// Model, Price, Shopping_cart
 
 export default App;

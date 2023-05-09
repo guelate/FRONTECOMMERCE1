@@ -31,3 +31,18 @@ export const Newsletter_STYLE_P = ""
 export const Newsletter_STYLE_FORM = ""
 export const Newsletter_STYLE_A = ""
 
+export const SneakerProductCard_STYLE_CONTAINER = "border border-black relative flex items-center w-1/5 h-auto flex-col"
+export const SneakerProductCard_STYLE_IMG = "w-1/4 rotate-90"
+export const SneakerProductCard_STYLE_SPAN_1 = "font-black"
+export const SneakerProductCard_STYLE_SPAN_2 = "font-black"
+export const SneakerProductCard_STYLE_A_HREF = "font-black"
+
+export const Carousel_STYLE_CONTAINER = ""
+export const Carousel_STYLE_SPAN_1 = ""
+export const Carousel_STYLE_SPAN_2 = ""
+export const Carousel_STYLE_SPAN_3 = ""
+export const Carousel_STYLE_SPAN_4 = ""
+export const Carousel_STYLE_SPAN_5 = ""
+
+
+
