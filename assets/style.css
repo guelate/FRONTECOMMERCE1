@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  margin: var(--header-height) 0 0 0; /* line to start header */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
@@ -97,8 +97,10 @@ img {
 }
 /*===== CLASS CSS ===== */
 /* take a look to review if it just .section? */
+
 .section {
-  padding: 5rem 0 2rem;
+  padding: 5rem 0 2rem; /* inside each section balise */
+  border: 1px solid black;
 }
 
 .section-title {
@@ -138,6 +140,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--dark-color-lighten);
+  
 }
 /*===== NAV =====*/
 
